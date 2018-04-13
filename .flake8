@@ -1,0 +1,4 @@
+[flake8]
+ignore = E402,E722
+exclude = lib/,bin/
+max-line-length=90

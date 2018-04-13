@@ -1,0 +1,43 @@
+# Library dependencies for the python code.  You need to install these with
+# `pip install -r requirements.txt` before you can run this.
+
+#### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
+
+# Machine Learning Libraries
+# scikit-learn has the lasso and elasticnet implementations that we use
+numpy
+scipy
+scikit-learn
+
+# For lemmatization of GloVe words and tokenization of Gigaword
+spacy==2.0.9
+
+# For parsing gigaword files
+beautifulsoup4
+
+# argument parsing for model-building scripts
+argparse
+
+# progress bars when dealing with data
+tqdm
+
+# For downloading data
+requests
+
+# Python 2 and 3 compatibility
+six
+
+#### TESTING-RELATED PACKAGES ####
+# Unit tests
+pytest
+
+# Lets pytest find our code
+pytest-pythonpath
+
+# Code style linting
+flake8
+
+# coverage reports
+coverage
+codecov
+pytest-cov
