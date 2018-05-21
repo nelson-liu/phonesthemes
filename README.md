@@ -5,8 +5,8 @@
 
 Phonestheme induction and discovery through sparse feature selection and word
 vectors. This repository contains code for the paper 
-_Discovering Phonesthemes with Sparse Regularization_, which will be presented
-at the Second Workshop on Subword and Character Level Models in NLP at NAACL 2018.
+[_Discovering Phonesthemes with Sparse Regularization_](https://homes.cs.washington.edu/~nfliu/papers/liu+levow+smith.sclem2018.pdf), which will 
+be presented at the NAACL 2018 Workshop on Subword and Character Level Models.
 
 On a high level, this code seeks to extract character-level sequences in words
 that are highly predictive of a word's meaning. These submorphemic clusters of
